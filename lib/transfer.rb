@@ -7,7 +7,7 @@ class Transfer
     @status = "pending"
   end
 
-  def valid?(sender, receiver)
+  def valid?
     sender.BankAccount.valid?(sender)
     receiver.BankAccount.valid?(receiver)
   end
