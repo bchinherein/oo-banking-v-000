@@ -8,7 +8,6 @@ class Transfer
   end
 
   def valid?
-    sender.Ba nkAccount.valid?(sender)
-    receiver.BankAccount.valid?(receiver)
+    
   end
 end #class Transfer
