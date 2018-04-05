@@ -13,5 +13,6 @@ class Transfer
     else
       false
     end
-  end
+  end #def valid?
+
 end #class Transfer
