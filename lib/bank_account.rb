@@ -21,7 +21,7 @@ class BankAccount
       true
     else
       false
-    end
+    end #if @status
   end #def valid?
 
   def close_account
